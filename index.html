@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+    .card-img-top {
+    height: 230px;
+    object-fit: cover;
+}
+.card{
+    height: 530px;
+    width: 90px;
+    
+}
+.carousel-control-next,
+.carousel-control-prev  {
+    filter: invert(100%);
+}
+
+.nav {
+display: flex;
+justify-content: center;
+list-style: none;
+
+}
+h1{
+ position:relative;
+left: 50%; 
+transform: translatex(-50%); 
+}
+button{
+    margin-right: 50px;
+
+}
+#generalstudies,#english,#reasoning{
+    margin-right:50px;
+    margin-left:50px;
+}
+#reasoning{
+  margin-bottom:50px;
+}
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark text-white">
+        <h1> Exam Subjects</h1>
+    </nav>
+    <br><br>
+    <div class="d-flex justify-content-between" style="background:white">
+    <h1>General studies</h1>
+    <div class="dropdown">
+        
+        <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-placeholder="SSC">
+         Exams
+        </button>
+        <div class="dropdown-menu">
+        <a class="dropdown-item bg-dark text-light" href="#">SSC</a>
+          <a class="dropdown-item bg-dark text-light" href="#">JEE</a>
+          <a class="dropdown-item bg-dark text-light" href="#">CATE</a>
+          <a class="dropdown-item bg-dark text-light" href="#">CAT</a>
+          <a class="dropdown-item bg-dark text-light" href="#">UPSC</a>
+          <a class="dropdown-item bg-dark text-light" href="#">CLAT</a>
+        </div>
+      </div></div>
+    <section>
+    <div id="generalstudies" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active flex-column flex-sm-row">
+            <div class="card-deck">
+                <div class="card"  >
+                  <img class="card-img-top"  src="history.jpg" alt="History">
+                  <div class="card-body">
+                    <h5 class="card-title">History</h5>
+                    <p class="card-text">History is the study of change and development in society over time. The study of history enables us to understand how past human action affects the present and influences our future, and it allows us to evaluate these effects.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+                <div class="card" >
+                  <img class="card-img-top" src="ps.png" alt="Political Science">
+                  <div class="card-body">
+                    <h5 class="card-title">Political Science</h5>
+                    <p class="card-text">Political science is a social study concerning the allocation and transfer of power in decision making, the roles and systems of governance including governments and international organizations, political behaviour and public policies.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+                <div class="card" >
+                  <img class="card-img-top" src="economics.jfif" alt="Economics">
+                  <div class="card-body">
+                    <h5 class="card-title">Economics</h5>
+                    <p class="card-text">Economics is a social science concerned with the production, distribution, and consumption of goods and services. It studies how individuals, businesses, governments, and nations make choices about how to allocate resources.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+                    <div class="card">
+                      <img class="card-img-top" src="socio.jpg" alt="Sociology">
+                      <div class="card-body">
+                        <h5 class="card-title">Sociology</h5>
+                        <p class="card-text">SOCIOLOGY is the study of social life, social change, and the social causes and consequences of human behavior. Sociologists investigate the structure of groups, organizations, and societies and how people interact within these contexts.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </div>
+                    </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-deck">
+                <div class="card">
+                  <img class="card-img-top" src="gk2.jpg" alt="Generalknowledge">
+                  <div class="card-body">
+                    <h5 class="card-title">General knowledge</h5>
+                    <p class="card-text">General knowledge is information that has been accumulated over time through various mediums. It excludes specialized learning that can only be obtained with extensive training and information confined to a single medium.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="psychology.jpg" alt="Psychology">
+                  <div class="card-body">
+                    <h5 class="card-title text-dark">Psychology</h5>
+                    <p class="card-text">Psychology is the scientific study of the mind and behavior, according to the American Psychological Association. Psychology is a multifaceted discipline and includes many sub-fields of study such areas as human development, sports, health, clinical, social behavior and cognitive processes.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="geo1.png" alt="Geography">
+                  <div class="card-body">
+                    <h5 class="card-title">Geography</h5>
+                    <p class="card-text">Geography is the study of places and the relationships between people and their environments. Geographers explore both the physical properties of Earth's surface and the human societies spread across it.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="philosophy.png" alt="Geography">
+                    <div class="card-body">
+                      <h5 class="card-title">Philosophy</h5>
+                      <p class="card-text">Philosophy is the study of thought concerning nature, metaphysics, ethics, aesthetics, being, knowledge, logic, and all manner of theory. “Philosophy” comes from Greek words meaning “love of wisdom.” Philosophy uses the tools of logic and reason to analyze the ways in which humans experience the world.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+              </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" onclick="$('#generalstudies').carousel('prev')">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" onclick="$('#generalstudies').carousel('next')">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div></div>
+    </section>
+    <br><Br>
+        <h1 align="center">English</h1>
+        <section>
+            <div id="english" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active flex-column flex-sm-row">
+                    <div class="card-deck">
+                        <div class="card"  >
+                          <img class="card-img-top"  src="idioms.jpg" alt="Idioms and Phrases">
+                          <div class="card-body">
+                            <h5 class="card-title">Idioms And Phrases</h5>
+                            <p class="card-text">An idiom is a phrase, saying or a group of words that has a metaphorical (not literal) meaning, which has become accepted in common usage. An idiom's symbolic sense is quite different from the literal meaning or definition of the words of which it is made.</p>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">Last updated 5 mins ago</small>
+                          </div>
+                        </div>
+                        <div class="card" >
+                          <img class="card-img-top" src="letter.png" alt="Letter Writing">
+                          <div class="card-body">
+                            <h5 class="card-title">Letter Writing </h5>
+                            <p class="card-text">A letter is a written message that can be handwritten or printed on paper. It is usually sent to the recipient via mail or post in an envelope, although this is not a requirement as such. Any such message that is transferred via post is a letter, a written conversation between two parties.</p>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">Last updated 5 mins ago</small>
+                          </div>
+                        </div>
+                        <div class="card" >
+                          <img class="card-img-top" src="speech.jpg" alt="Direct and Inndirect Speech">
+                          <div class="card-body">
+                            <h5 class="card-title">Direct & Indirect Speech </h5>
+                            <p class="card-text">Direct Speech: the actual words (with no change) of speaker are quoted. The exact words of the speaker are enclosed in Inverted Commas or Quotation Marks. Indirect Speech: The actual words of the speaker are changed.</p>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">Last updated 5 mins ago</small>
+                          </div>
+                        </div>
+                            <div class="card">
+                              <img class="card-img-top" src="prep1.jpg" alt="Prepositions">
+                              <div class="card-body">
+                                <h5 class="card-title">Prepositions</h5>
+                                <p class="card-text">Prepositions are short words (at, in, on) which are used to show position, location, direction, and time in English.</p>
+                              </div>
+                              <div class="card-footer">
+                                <small class="text-muted">Last updated 5 mins ago</small>
+                              </div>
+                            </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card-deck">
+                        <div class="card">
+                          <img class="card-img-top" src="comprehension.png" alt="Comprehension">
+                          <div class="card-body">
+                            <h5 class="card-title">Reading Comprehension</h5>
+                            <p class="card-text">Comprehension is the understanding and interpretation of what is read. </p>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">Last updated 5 mins ago</small>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="article2.png" alt="Articles">
+                          <div class="card-body">
+                            <h5 class="card-title">Article </h5>
+                            <p class="card-text">Articles are words that define a noun as specific or unspecific.</p>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">Last updated 5 mins ago</small>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="saa2.jpg" alt="Synonyms and Antonyms">
+                          <div class="card-body">
+                            <h5 class="card-title">Synonyms and Antonyms</h5>
+                            <p class="card-text">Antonyms are words with opposite meanings. Synonyms are words with the same or similar meaning. </p>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">Last updated 5 mins ago</small>
+                          </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="conjunction.jpg" alt="Conjunctions">
+                            <div class="card-body">
+                              <h5 class="card-title">Conjunctions</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            </div>
+                            <div class="card-footer">
+                              <small class="text-muted">Last updated 5 mins ago</small>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+        
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" onclick="$('#english').carousel('prev')">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" onclick="$('#english').carousel('next')">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div></div>
+            </section><br><br>
+            <h1 align="center">Logical Reasoning</h1>
+            <section>
+                <div id="reasoning" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active flex-column flex-sm-row">
+                        <div class="card-deck">
+                            <div class="card"  >
+                              <img class="card-img-top"  src="puzzles.png" alt="Puzzles">
+                              <div class="card-body">
+                                <h5 class="card-title">Puzzles</h5>
+                                <p class="card-text">Logical Reasoning Puzzles require you to analyze the given piece of information, pick the information that is important and leave out the information that is not required in solving the given set of questions.</p>
+                              </div>
+                              <div class="card-footer">
+                                <small class="text-muted">Last updated 9 mins ago</small>
+                              </div>
+                            </div>
+                            <div class="card" >
+                              <img class="card-img-top" src="aptitude.png" alt="Artificial Language">
+                              <div class="card-body">
+                                <h5 class="card-title">Artificial Language</h5>
+                                <p class="card-text">Artificial languages are languages that have been consciously devised, usually by a single creator. They are also sometimes called planned languages, constructed languages, or invented languages. Specific types may be called fictional languages, auxiliary languages, or interlanguages.</p>
+                              </div>
+                              <div class="card-footer">
+                                <small class="text-muted">Last updated 9 mins ago</small>
+                              </div>
+                            </div>
+                            <div class="card" >
+                              <img class="card-img-top" src="br1.jpeg" alt="Blood Relation">
+                              <div class="card-body">
+                                <h5 class="card-title">Blood relation</h5>
+                                <p class="card-text">Any relation in the world which either by birth or by marriage is called a Blood Relation.</p>
+                              </div>
+                              <div class="card-footer">
+                                <small class="text-muted">Last updated 9 mins ago</small>
+                              </div>
+                            </div>
+                                <div class="card">
+                                  <img class="card-img-top" src="clock3.jpg" alt="Clocks">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Clocks</h5>
+                                    <p class="card-text">The hands of a clock can have a maximum angle of 180o between them. When this happens, both the hands represent a straight line. The hands of a clock make right angles twice every hour when they are 15 minutes away from each other.</p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <small class="text-muted">Last updated 9 mins ago</small>
+                                  </div>
+                                </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card-deck">
+                            <div class="card">
+                              <img class="card-img-top" src="cube2.png" alt="Cubes and cuboids">
+                              <div class="card-body">
+                                <h5 class="card-title">Cubes and cuboids</h5>
+                                <p class="card-text">Cube and cuboid are three-dimensional shapes which consist of six faces, eight vertices and twelve edges. The primary difference between them is a cube has all its sides equal whereas the length, width and height of a cuboid are different. </p>
+                              </div>
+                              <div class="card-footer">
+                                <small class="text-muted">Last updated 9 mins ago</small>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img class="card-img-top" src="directions.png" alt="Directions">
+                              <div class="card-body">
+                                <h5 class="card-title">Directions</h5>
+                                <p class="card-text">Questions based on directions. Some dorections are: North, South, East, West.</p>
+                              </div>
+                              <div class="card-footer">
+                                <small class="text-muted">Last updated 9 mins ago</small>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img class="card-img-top" src="series.jpg" alt="Pattern Series and Sequences">
+                              <div class="card-body">
+                                <h5 class="card-title">Pattern Series and Sequences</h5>
+                                <p class="card-text">An arithmetic progression is one of the common examples of sequence and series.</p>
+                              </div>
+                              <div class="card-footer">
+                                <small class="text-muted">Last updated 9 mins ago</small>
+                              </div>
+                              
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top" src="syllogism2.jpg" alt="Syllogism">
+                                <div class="card-body">
+                                  <h5 class="card-title">Syllogism</h5>
+                                  <p class="card-text">An instance of a form of reasoning in which a conclusion is drawn from two given or assumed propositions.</p>
+                                </div>
+                                <div class="card-footer">
+                                  <small class="text-muted">Last updated 3 mins ago</small>
+                                </div>
+                                
+                              </div>
+                          </div>
+                    </div>
+            
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" onclick="$('#reasoning').carousel('prev')">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" onclick="$('#reasoning').carousel('next')">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div></div>
+                </section>
+</body>
+</html>
